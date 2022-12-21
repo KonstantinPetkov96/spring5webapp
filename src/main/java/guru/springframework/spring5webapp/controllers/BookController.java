@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BookController {
     private final BookRepository bookRepository; // this will be automatically instantiated because we have the controller annotation (dep injection)
 
+    // just testing
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
